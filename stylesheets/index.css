@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* TROUBLESHOOTING */
+.canvas,
+div {
+  /* border: 1px solid rgb(0, 204, 255); */
+}
+/* TROUBLESHOOTING */
+.canvas {
+  background-image: url(../images/herobg.png);
+  background-color:rgba(0,0,0,0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  /* width: 100vw; */
+}
+.container {
+  /* border: 1px solid rgb(241, 182, 72); */
+  height: 100%; /* delete*/
+  margin: 0 auto;
+  max-width: 920px;
+}
+.header {
+  padding-top: 40px;
+}
+.hero_content {
+  padding-top: 100px;
+}
+.hero_left{
+  float: left;
+  width: 50%;
+}
+p.heading {
+  color: #FFF;
+  font-size: 60px;
+  line-height: 1.0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.hero_right {
+  background-color: #C4C6C7;
+  float: right;
+  opacity: 0.8;
+}
+form {
+  width: 350px;
+}
+.form_title {
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 0;
+  font-weight: 500;
+}
+input.form-control {
+  border-radius: 50px;
+  width: 300px;
+  margin: 0 auto;
+}
+.form_label {
+  color: #5D5D5D;
+  font-size: 16px;
+}
+.request {
+  border: none;
+  border-radius: 50px;
+  background-color: #2ABAF2;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 45px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  position: relative;
+  left: 55px;
+}
